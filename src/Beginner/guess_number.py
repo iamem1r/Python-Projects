@@ -1,0 +1,1 @@
+# Hi this the second mini project of beginner python
