@@ -1,7 +1,7 @@
 # in this mini project we are going to ask some random questions from user,
 # count the correct answers and finally print percentage of correct answers
-import time
 
+import time
 
 def sleep(sec=1):
     """it entrupts running code for N seconds.
@@ -18,7 +18,6 @@ def quit_game():
     sleep()
     quit()
 
-
 def continue_game():
     print("YooooHoooo!!")
     sleep(0.5)
@@ -26,7 +25,6 @@ def continue_game():
     sleep(0.5)
     print("So, Let's Goooooo")
     print("- * -"* 20)
-
 
 print("WELCOME to QUIZ game!!!!")
 sleep()
@@ -38,7 +36,6 @@ if playing.lower() == 'yes':
     continue_game()
 else:
     quit_game()
-
 
 score = 0
 answer = input("What is the capital of Brazil? ")
@@ -94,5 +91,3 @@ elif 2 < score < 4:
     print("You know countries well, but you should be more conscious!")
 else:
     print("You should read more and more about countries.")
-
-
